@@ -1,0 +1,13 @@
+.container{
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 50px auto;
+
+}
+.container:hover{
+    transform: rotateY(180deg);
+}
+.side-a .sade-b{
+
+}
