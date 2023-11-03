@@ -1,0 +1,294 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+nav{
+    background-color: black;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    font-weight: 500;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 17px;
+
+}
+nav a:hover{
+  background-color: white;
+  color: black;
+}
+nav a:first-child{
+    background-color: rgb(10, 187, 200);
+    padding: 12px;
+    font-size: 20px;
+   
+    border: none;
+}
+
+.image-con {
+    position: relative;
+    display: inline-block;
+  }
+
+#img1{
+    width: 100%;
+    height: 600px;
+}
+
+  
+  .image-text {
+    position: absolute;
+    /* top: 50%; */
+
+    left: 2%;
+    /* transform: translate(-50%, -50%); */
+    bottom: 10%;
+    text-align: center;
+    color: rgb(245, 242, 242);
+  }
+  
+  .image-text h2 {
+    font-size: 20px;
+    /* margin-bottom: 10px; */
+    background-color: black;
+    padding: 5px;
+  }
+  .team p{
+    text-align: center;
+    margin-top: 15px;
+  }
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .image-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    margin-top: 10px;
+  }
+  
+  .card-content h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+    color: gray;
+  }
+  .work-section{
+    margin-top: 40px;
+    width: 100%;
+    height: 450px;
+    background-color: grey;
+    display: flex;
+  }
+  
+  .left-section {
+    width: 20%;
+  }
+  
+  .right-section {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 15px 15px 2px;
+    background-color: white;
+  }
+  
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-content h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+    color: #555;
+  }
+
+  /* Pricing card */
+
+  .price-card-container{
+    
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+
+    
+  }
+  .pricing-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    
+  }
+  .pricing-card:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+  }
+  
+  .card-header {
+    text-align: center;
+  }
+  
+  .card-header h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .card-body ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .card-body li {
+    margin-bottom: 5px;
+  }
+  
+  .card-footer {
+    text-align: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+
+  /* contact us */
+  .container-contact {
+    display: flex;
+    width: 100%;
+    background-color: rgb(175, 169, 169);
+  }
+  
+  .left-section {
+    width: 45%;
+    margin: 20px;
+  }
+  
+  .right-section {
+    width: 55%;
+  }
+  
+  .card-contact {
+    background-color: white;
+    margin: 15px 10px 10px 10px;
+    width: 800px;
+    /* height: 200px; */
+    box-shadow: #ccc;
+    border-radius: 4px;
+  }
+  
+  .card-content-contact {
+    padding: 10px;
+  }
+  
+  
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .send-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+  }
+  
